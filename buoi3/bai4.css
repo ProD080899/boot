@@ -1,0 +1,130 @@
+*{
+    box-sizing: border-box;
+    padding: 10px;
+}
+.title1{
+    border: 1px solid black;
+    width: 400px;
+    height: 60px;
+    background-color: limegreen;
+    color: white;
+    font-size: 24px;
+   
+    
+    
+}
+.title2{
+    border: 1px solid black;
+    width: 400px;
+    height: 60px;
+    background-color:limegreen;
+    color: white;
+    font-size: 24px;
+    padding: 10px;
+    
+}
+.title3{
+    border: 1px solid black;
+    width: 400px;
+    height: 60px;
+    background-color:limegreen;
+    color: white;
+    font-size: 24px;
+    
+    
+}
+.title4{
+    border: 1px solid black;
+    width: 400px;
+    height: 60px;
+    background-color:limegreen;
+    color: white;
+    font-size: 24px;
+    
+    
+}
+.title5{
+    border: 1px solid black;
+    width: 400px;
+    height: 60px;
+    background-color:limegreen;
+    color: white;
+    font-size: 24px;
+    
+    
+}
+.title6{
+    border: 1px solid black;
+    width: 400px;
+    height: 60px;
+    background-color:limegreen;
+    color: white;
+    font-size: 24px;
+    
+    
+}
+.khoi1{
+    display: none;
+    margin-left: 100%;
+}
+.title1:hover .khoi1{
+   display: inline-block;  
+    
+
+}
+
+.khoi2{
+    display: none;
+    margin-left: 100%;
+}
+.title3:hover .khoi2{
+    display: inline-block;
+}
+.khoi3{
+    display: none;
+    margin-left: 100%;
+}
+.title4:hover .khoi3{
+    display: inline-block;
+}
+
+.khoi4{
+    display: none;
+    margin-left: 100%;
+}
+.title5:hover .khoi4{
+    display: inline-block;
+}
+.khoi5{
+    display: none;
+    margin-left: 100%;
+}
+.title6:hover .khoi5{
+    display: inline-block;
+}
+.title1:hover{
+    background-color: darkgreen;
+    color: black;
+}
+.title2:hover{
+    background-color: darkgreen;
+    color: black;
+}
+.title3:hover{
+    background-color: darkgreen;
+    color: black;
+}
+.title4:hover{
+    background-color: darkgreen;
+    color: black;
+}
+.title5:hover{
+    background-color: darkgreen;
+    color: black;
+}
+.title6:hover{
+    background-color: darkgreen;
+    color: black;
+}
+
+

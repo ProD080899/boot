@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav{
+    border: 1px solid black;
+    width: 100%;
+    height: 60px;
+    background-color: aqua;
+}
+.b{
+    color: black;
+}
+.team1{
+    border: 1px solid black;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+.Item{
+    border: 1px solid black;
+    width: 20%;
+    height: 250px;
+    background-color: aqua;
+}
+
+.footer{
+    border: 1px solid black;
+    width: 100%;
+    height: 60px;
+    background-color: blueviolet;
+}
+@media only screen and (max-width: 600px){
+    .Item{
+        background-color: yellow;
+        margin: auto;
+        width: 300px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .team1{
+        display: block;  
+    }
+
+}
+@media only screen and (max-width: 800px){
+    .Item{
+        background-color: yellow;
+        margin: auto;
+        width: 300px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .team1{
+        display: flex; 
+        flex-wrap: wrap;
+
+    }

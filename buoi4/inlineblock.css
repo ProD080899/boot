@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.khoi3{
+    width: 1000px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+}
+.khoi1{
+    width: 300px;
+    height: 100px;
+    background-color: cyan;
+    top: 100px;
+    display: inline-block;
+    position: absolute;
+}
+.khoi2{
+    width: 700px;
+    height: 100px;
+    background-color: yellow;
+    display: inline-block;
+    position: absolute;
+    top: 50px;
+    left: 300px;
+
+}

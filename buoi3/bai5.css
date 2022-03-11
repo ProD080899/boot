@@ -1,0 +1,28 @@
+.a{
+    width: 1000px;
+    height: 100px;
+    background-color: red;
+    position:absolute ;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    z-index: 999;
+    position:fixed;
+    
+
+}
+.b{
+    width: 500px;
+    height: 500px;
+    background-color: rgb(0, 0, 0);
+    position:relative;
+    margin: 50px 50px;
+}
+.c{
+    width: 500px;
+    height: 1000px;
+    background-color: rgb(0, 0, 0);
+    position:absolute;
+    margin: 50px 50px;
+}

@@ -1,0 +1,359 @@
+*{
+    box-sizing: border-box  ;
+    padding: 0;
+    margin: 0;
+}
+.title{
+    width: 100%;
+    height: 50px;
+    background:  white;
+    position: relative;
+   
+}
+.nav{
+    color: #fff!important;
+    background-color: #000!important;
+    height: auto;
+    height: 100%;
+    
+   
+}
+.nav li{
+    display: inline-block;
+}
+.menu{
+    display:none;
+    position:absolute;
+    top: 100%;
+    left: 0;
+    z-index: 999;
+
+}
+.menu li{
+    display: block;
+    background-color:#ccc;
+   
+}
+.more{
+    padding: 12px 12px;
+    position: relative;
+}
+.arrow-down{
+    display: none;
+}
+.more:hover .arrow-down{
+    display: inline-block;
+}
+.more:hover .arrow-up{
+    display: none;
+}
+.list-up{
+    color: #ccc;
+}
+.more:hover .menu{
+    display: block;
+    position: absolute;
+}
+.more:hover{
+    color: #000;
+    background:white;
+
+}
+.b,.c,.d{
+    padding: 12px 12px;
+}
+.e{
+    padding: 12px 24px;
+    position: absolute;
+    right: 0%;
+}
+.b:hover{
+    color: red;
+    background: white;
+}
+.c:hover{
+    color: red;
+    background: white;
+}
+.d:hover{
+    color: red;
+    background: white;
+}
+.e:hover{
+    color: white ;
+    
+    background: red;
+}
+.theband{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center; 
+    align-items: center;
+    max-width: 100%;
+    padding-top: 64px;;
+    padding-bottom: 64px;
+    flex-direction: column;
+}
+
+.h1{
+    text-align: center;
+    font-size: 32px;
+    font-family:  "Segoe UI",Arial,sans-serif;
+}
+.h2{
+    text-align: center;
+    font-style: italic;
+    line-height: 1.5;
+    font-size: 15px;
+    font-family: "Lato", sans-serif;
+    color: gray;
+
+}
+.text{
+    width: 800px;
+}
+
+.a{
+   padding: 12px 12px;
+}
+.a:hover{
+    color: red;
+    background: white;
+}
+.mysilde{
+    display: block;
+}
+.w3{
+    display: flex;
+    padding-top: 32px;
+    text-align: center;  
+    align-items: center;
+    justify-content: space-evenly;
+    
+    width: 800px;
+}
+.third{  
+    text-align: center;
+    font-size: 16px;
+    display: inline-block;
+    border-radius: 4px;
+}
+.tour{
+    letter-spacing: 4px;
+    border: 1px solid black;
+    max-width: 980px;
+    width: 100%;
+    margin: 0 auto;
+}
+.w1-title{
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    padding: 10px 25px;
+    color: #fff;
+}
+.w1-title1{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 5px 30px;
+    color: #fff;
+    
+}
+
+.w1-border{
+    border: 1px solid gray;
+    background-color: #fff!important;
+    color: #757575!important;
+    list-style: none;
+    width: 100%;
+    position: relative;
+}
+.w1-number{
+
+    border-radius: 50%;
+    background-color: #000;
+    color: #ccc;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    left: 95%;
+    position: absolute;
+    
+}
+.w1-box{
+    border: 1px solid gray;
+    padding: 8px 16px;
+}
+.w1-red{
+    background-color: #f44336!important;
+    color:  #fff!important;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: center;
+}
+.w2-main{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding-top: 32px!important;
+    padding-bottom: 32px!important;
+    justify-content: space-between;
+}
+.container{
+    width: 300px;
+    height: 220px;
+    background-color: #fff;
+}
+.w2-img{
+    display: flex;
+    flex-direction: column;
+}
+.ss{
+    font-family: "Lato", sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #000!important;
+    letter-spacing:0.5px;
+    margin-left: 10px;
+    background-color: #fff;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    
+}
+.day{
+    opacity: 0.6;
+}
+.w-button{
+    background-color: #000;
+    height: 40px;
+    width: 100px;
+    color: #fff;
+    margin-left: 10px;
+}
+.w-button:hover{
+    background-color: #fff;
+    color: #000;
+}
+.main{
+    border: 1px solid black;
+    width: 100%;
+    max-height: 980px ;
+    background-color: #000;
+}
+
+.w4-khoi1{
+    
+    max-height: 800px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.w4-title-contact{
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    margin: 10px 0;
+    text-align: center;
+}
+.w4-fan{
+    font-family: "Lato", sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    text-align: center;
+    opacity: 0.6;
+}
+.w4-khoi2{
+    margin-top: 32px;
+    margin-bottom: 32px;
+    max-height: 300px;
+    width: 800px;
+    display: flex;
+}
+.w4-emoji{
+    font-size: 18px;
+    line-height: 1.5;
+    
+    width: 50%;
+    height: 100px;
+    
+}
+.w4-box{
+     
+   width: 50%;
+   
+}
+.w4-d1  {
+    display: flex;
+    justify-content: space-between;
+}
+.box1{
+    width: 48%;
+    height: 35px;  
+    margin-bottom: 10px;  
+    border: 1px solid #ccc!important;
+   
+}
+.box2{
+    width: 46%;
+    height: 35px;  
+    margin-bottom: 10px;
+    border: 1px solid #ccc!important;
+}
+.box3{
+    width: 100%;
+   height: 35px;
+   margin-bottom: 10px;
+       border: 1px solid #ccc!important;
+}
+.w4-button{
+    width: 80px;
+    height: 40px;
+    background-color: #000;
+    color: #fff; 
+}
+.w4-h3{
+    display: flex;
+    justify-content: flex-end;
+}
+.w4-button:hover{
+    background-color: #fff;
+    color: #000;
+}
+.w4-end{
+    width: 100%;
+    max-height: 200px;
+}
+.w4-icon{
+    font-size: 24px;
+    text-align: center;
+    opacity: 0.6;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+.w4-textend{
+    opacity: 0.6;
+    text-align: center;
+    margin-top: 32x;
+    margin-bottom: 32px;
+    font-family: "Lato", sans-serif;
+}
+.list{
+    display: none;
+}
+@media only screen and (max-width: 1200px ){
+    .list{
+        background-color: black;
+        color: #ccc;
+        display: block;
+    }
+    .list:hover{
+        background-color: #f44336;
+        color: #000;
+    }
+    .seacher{
+        display: none;
+    }
+}

@@ -1,0 +1,66 @@
+.khoibao{
+    width: 300px;
+    height: 350px;
+    margin : 0 auto;
+    border: 1px solid #000;
+    padding: 30px;
+}
+.Login{
+    background-color: white;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 15px;
+
+    
+
+}
+.email{
+    background-color: white;
+    width: 285px;
+    height: 30px;
+    margin-bottom: 20px;
+
+}
+.password{
+    background-color: white;
+    width: 285px;
+    height: 30px;
+    margin-bottom: 20px;
+}
+.quenmk{
+color: blue;
+    width: 100%;
+    text-align: end;
+}
+.Create{
+
+    text-align: end;
+}
+:hover.buttonlogin{
+    text-align: center;
+    background-color: blue;
+    background-color: red;
+    width: 300px;
+    height: 30px;
+    color: aliceblue;
+    border-radius: 6px;
+    
+    
+
+ 
+}
+.OrLogin{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.loginfb{
+    text-align: center;
+    background-color:darkcyan;
+    width: 300px;
+    height: 30px;
+    color: aliceblue;
+    border-radius: 6px;
+}

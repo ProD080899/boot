@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+}
+.app{
+    position: relative;
+    width: 1000px;
+    height: 1150px;
+    background: wheat;
+}
+.k1{
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    background: darkcyan;
+    z-index: 999;
+}
+.k2{
+    position: absolute;
+    width: 60%;
+    height: 140px;
+    background-color: red;
+    z-index: 999;
+    left: 20%;
+    top: 150px;
+    border-radius: 40px;
+    color: white;
+    padding: 20px;
+}
+.k3{
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    background: gray;
+    z-index: 999;
+    top:600px;
+}
+.k4{
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    background:darkslategray;
+    z-index: 999;
+    top:1100px;
+    
+}
+.k5{
+    position: relative;
+}
+.k4 li{
+    display: inline-block;
+    
+}
+ul{
+    
+    position: absolute;
+    top: -10px;
+    left: -100px;
+
+    
+}
+
+li{
+
+   padding: 10px 10px;
+   top:10px;
+
+}
+
+li:hover{
+    background-color: black;
+    color: white;
+}

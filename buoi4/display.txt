@@ -1,0 +1,23 @@
+display                 căn chỉnh, sắp xếp hiển thị các khối giao diện
+
+inline                  hiển thị dạng text
+                        không dùng được width height
+
+block                   hiển thị dạng khối, chiếm nguyên ròng
+
+inline-block            hiển thị dạng text
+                        nhưng vẫn dùng được width height
+
+none                    không hiển thị
+                        biến mất hoàn toàn khỏi giao diện
+
+
+flex                    trao quyền cho thẻ cha thay đổi hiển thị của các thẻ con bên trong    
+      
+      flex-direction    thay đổi chiều xếp hàng của thẻ con                 
+
+      justify-content   căn chỉnh hiển thị cho thẻ con
+                        căn chỉnh theo chiều của flex-direction
+
+      align-items       căn chỉnh hiển thị cho thẻ con
+                        căn chỉnh theo chiều còn lại của flex-direction

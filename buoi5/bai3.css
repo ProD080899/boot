@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    
+    width: 240px;
+    height: 110px;
+    position: relative;
+    background-color: wheat ;
+    font-size: 7px;
+}
+.nav{
+   
+    width: 240px;
+    height: 50px;
+    position: absolute;
+    background-color: darkcyan ;
+    padding: 10px;
+    color: white ;
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+
+.box1{
+    border: 1px solid black;
+    width: 60px;
+    height: 50px;
+    display: inline-block;
+    position: absolute;
+    top: 40px;
+    left: 10px;
+ background-color: white;   
+}
+.img1{
+    height: 10px;
+    width: 10px;
+  
+    margin: 5px;
+    background-image: url(https://icons.iconarchive.com/icons/blackvariant/button-ui-system-apps/1024/Messages-2-icon.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.box2{
+    border: 1px solid black;
+    width: 60px;
+    height: 50px;
+    display: inline-block;
+    position: absolute;
+    top: 40px;
+    left:90px;
+ background-color: white;   
+}
+.img2{
+    height: 10px;
+    width: 10px;
+    
+    margin: 5px;
+    background-image:url(https://tse4.mm.bing.net/th?id=OIP.D-bZxw9MKhf6Fml3UgehjAHaHa&pid=Api&P=0&w=168&h=168);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.box3{
+    border: 1px solid black;
+    width: 60px;
+    height: 50px;
+    display: inline-block;
+    position: absolute;
+    top: 40px;
+    left: 170px;
+background-color: white;      
+}
+.img3{
+    height: 10px;
+    width: 10px;
+    margin: 5px;
+    background-image: url(https://tse4.mm.bing.net/th?id=OIP.YkulbRvjOWM5BuuSThz2CAHaFz&pid=Api&P=0&w=210&h=165);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.box1:hover{
+    background-color: red;
+    color: white;
+}

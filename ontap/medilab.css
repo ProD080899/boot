@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.title-nav{
+    background: #fff;
+    height: 40px;
+    width: 100%;
+    font-size: 14px;
+    transition: all 0.5s;
+    z-index: 996;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    position: sticky;
+    top: 0px;
+}
+.a {
+    color: #437099;
+    padding-right: 15px;
+    display: inline-block;
+    line-height: 1px;
+    transition: 0.3s;
+}
+.b{
+    color: #437099;
+    padding-right: 8px;
+}
+.text1{
+    line-height: 1px;
+    transition: 0.3s;
+    
+    padding-left: 15px;
+}
+.Medilab{
+    font-size: 32px;
+    font-weight: bolder;
+    color: #2c4964;
+    text-decoration: none;
+}
+.nav-icon {
+    margin-right: 64px;
+}
+.contact-nav{
+    margin-left: 64px;
+}
+
+.container-nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-right: 32px;
+    padding-left: 32px;
+    position: sticky;
+    top: 0;
+    right:  0;
+    z-index: 999;
+    background: #fff;
+}
+.btn{
+    border-radius: 50px;
+}
+
+.nav-link:hover{
+    text-decoration: underline;
+}
+.background-id{
+    background: url(../on-tap/Medilab/assets/img/hero-bg.jpg);
+    width: 100%;
+    height: 90vh;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+.w1-text1{
+    margin: 0;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    text-transform: uppercase;
+    color: #2c4964;
+    font-family: "Raleway", sans-serif;
+}
+.w1-text2{
+    color: #2c4964;
+    margin: 10px 0 0 0;
+    font-size: 24px;
+    font-family: "Raleway", sans-serif;
+}
+.w1-title .btn-primary{
+    margin-top: 16px;
+    padding: 8px;
+}
+.w1-title{
+    position: absolute;
+    left: 50px;
+    top:50%
+}
+.container1{
+    width: 100%;
+    height: 40px;
+    background-color: #437099;
+}
+.content1{
+    padding: 30px;
+    background: #1977cc;
+    border-radius: 4px;
+    color: #fff;
+   
+}
+.content1-1{
+    font-size: 34px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.content1-2{
+    margin-bottom: 30px;
+}
+.row{
+    justify-content: space-around;
+}
+.content2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
+    padding: 40px 30px;
+    border-radius: 4px;
+    width: 30%;
+    background-color: #fff;
+    
+}
+.main1{
+    
+}
+.w2-container{
+    margin: 0 auto;
+    width: 100%;
+    padding: 30px 0;
+}
+
+
+.w2-main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.w3-container{
+padding: 60px 0;
+}
+.w3-video{
+    height: 600px;
+    background: url(../on-tap/Medilab/assets/img/about.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.icon{
+    height: 50px;
+    width: 50px;
+    border: 1px solid #1977cc;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-right: 16px;
+}
+.w3-text1-box{
+    font-size: 14px;
+}
+.icon-box{
+    display: flex;
+    align-items: center
+}
+.w3-text-main{
+    font-size: 28px;
+    font-weight: 700;
+    color: #2c4964;
+    margin-bottom: 15px;
+}
+.w3-box-table{
+    display: flex;
+    
+flex-wrap: wrap;
+}
+.div-item-w4{
+    font-size: 24px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #1977cc;
+    background-color: #1977cc;    
+    color: #fff;
+   
+}
+.w4-container{
+    width: 100%;
+    margin: 0 auto;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #f1f7fd;
+}
+.w4-width{
+    max-width: 1400px;
+}
+.w4-box{
+    display: flex;  
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+}
+.w4-box-text{
+    top: 20px;
+   text-align: center;
+  
+}
+.w5-container{
+    max-width: 1600px;
+    width: 100%;
+    margin: 0 auto;
+}

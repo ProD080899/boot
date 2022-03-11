@@ -1,0 +1,177 @@
+*{
+    max-width: 1600px;
+    padding: 0;
+    margin:0 auto;
+}
+.body-left{
+    width: 300px;
+    border: 1px solid black;  
+}
+.main{
+    display: flex;
+}
+.div-menu-left{
+   
+}
+h2{
+    font-size: 20px;
+    font-family: "Raleway", sans-serif;
+    font-weight: bolder;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    padding: 8px;
+}
+.text-left{
+    margin-right: 1rem;
+    color: #757575;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    padding: 8px;
+}
+.img-left{
+    padding: 8px;
+}
+.bg-light:hover{
+    background-color: #ccc !important;
+    color: black;
+}
+.div-icon{
+    font-size: 18px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    opacity: 0.6;
+    padding: 8px;
+}
+
+.body-right{
+    border: 1px solid black;
+    padding-left: 8px;
+    padding-right: 8px;
+    max-height: 3000px;
+}
+.button-all{
+    background-color: black ;
+    color: white;
+}
+.button-all:hover{
+    color: black;
+    background-color: #ccc;  
+}
+.navbar>.container, .navbar>.container-fluid, 
+.navbar>.container-lg, .navbar>.container-md, .navbar>
+.container-sm, .navbar>.container-xl, .navbar>.container-xxl{
+
+    display: block;
+}
+.border{
+    width: 100%;
+    height: 8px;
+    background-color: #ccc;
+}
+.div-card1{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+    margin-top: 16px;
+
+
+}
+.right
+{
+    margin-left: 300px;
+    display: inline-block;
+}
+.pagination{
+    display: flex;
+    justify-content: center;
+}
+h1{
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    margin: 10px 0;
+    font-size: 32px;
+}
+.right-filter{
+    margin-bottom: 16px;
+}
+.img1{
+    width: 48%;
+}
+.img-avatar{
+    display: flex;
+    justify-content: space-between
+
+}
+.Skill{
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+.progress {
+    height: 40px;
+}
+.progress-bar {
+   color: #fff!important;
+    background-color: #616161!important;
+}
+.button-dow{
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.tb1{
+    border:1px solid #ddd;
+    text-align: center;
+   
+}
+
+.Basic{
+    color: #fff!important;
+    background-color: #000!important;
+    padding-top: 32px!important;
+    padding-bottom: 32px!important;
+    font-size: 24px;
+}
+.ss{
+    font-size: 30px;
+    font-family: "Raleway", sans-serif;
+}
+.a{
+    padding: 16px;
+}.Button-sign{
+    height: 40px;
+    width: 80px ;
+    margin: 16px;
+}
+.tb{
+    width: 30%;
+}
+.div-table{
+    display: flex;
+    justify-content: space-between
+}
+
+.contact-start{
+    max-height: 200px;
+    width: 100%; 
+    display: flex;
+}
+.email, .phone{
+    color: #fff!important;
+    background-color: #616161!important;
+    width: 32%;
+    text-align: center;
+    padding: 0 8px;
+}
+.w4-a{
+    font-size: 32px;
+}
+.w4-b{
+    font-size: 16px;
+}
+
+.address{
+    width: 32%;
+    text-align: center;
+    padding: 0 8px;
+    color: #fff!important;
+    background-color: #009688!important;
+}

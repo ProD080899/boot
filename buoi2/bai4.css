@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+}
+.Xtraform{
+    color: grey;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 15px;
+
+}
+.Bootstrap{
+
+        margin-bottom: 25px;
+        text-align: center;
+        color: gray;
+}
+.container{
+    width: 400px;
+    height: 500px;
+    border: 1px solid black;
+    margin: auto;
+    padding: 20px;
+    background-color: black;
+}
+.Signup{
+    text-align: center;
+    color: rgb(229, 186, 186);
+    font-size: 20px;
+    padding: 10px;
+    width: 400px;
+    background: gray;
+    margin: auto;
+    
+}
+
+input{
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+}
+.check{
+    width: fit-content;
+    height: fit-content;
+}
+.button{
+    background-color: darkcyan;
+    color: white;
+    height: 30px;
+    padding: 5px;
+    border-radius: 6px; 
+
+}
+
+.account{
+    font-size: 10px;
+    margin-top: 40px;
+    text-align: center;
+    color: gray;
+ 
+}
+.border{
+    width: 100%;
+    height: 20px;
+    border-top:  2px solid white;
+    border-style: dashed;
+    
+    margin-top: 30px;
+
+    
+}
+#Name{
+    font-weight: bolder;
+}
+#Pass{
+    background-color: darkgrey;
+}
+.SIGNIN{
+    background-color: green;
+    width: 100%;
+    height: 30px;
+    color: white;
+    border-radius: 6px;
+    margin-top: 5px;
+}
+.SIGNIN:hover{
+    background-color: grey;
+    width: 100%;
+    height: 30px;
+    color: white;
+    border-radius: 6px;
+    margin-top: 5px;
+}

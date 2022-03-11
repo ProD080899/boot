@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.app{
+    width: 100%;
+    padding: 50px;
+}
+.title{
+    font-size: 22px;
+    background-color: antiquewhite;   
+    
+    
+} 
+.text1{
+        font-size: 24px;
+        line-height: 2.5;
+        text-align:justify;
+        background-color: antiquewhite;
+}
+
+
+img{
+    width: 100%;
+    border: 2px solid hotpink;
+
+}
+.text2{
+    font-size: 16px;
+    margin-top: 20px;
+    text-align:justify;
+}
+.text3{
+    text-align: end;
+    font-size: 22px;
+    font-weight: bolder;
+    
+}

@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.title{
+    height: 60px;
+    width: 100%;
+    background-color: black;
+    color:white;
+    display: flex;
+
+}
+
+.left{
+    display: inline-block;
+}
+.right{
+    display: inline-block;
+}

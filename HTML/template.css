@@ -1,0 +1,166 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.listImg{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+.listImg-item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.listImg-item img{
+  width: 60%;
+  border-radius: 4px;
+  margin-top: 16px;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  background: black;
+  color:white
+}
+.header-left{
+  display: flex;
+}
+.header-left div{
+  padding: 12px 24px;
+  text-transform: uppercase;
+  display: flex;
+}
+.header-left div:hover{
+  background: #ccc;
+  cursor: pointer;
+  color: black;
+}
+.header-right{
+  padding: 12px 24px;
+}
+.header-right:hover{
+  background: red;
+  color: wheat;
+  cursor: pointer;
+}
+.arrow-down{
+  display: flex;
+  align-items: center;
+}
+.mobile{
+  display: none;
+}
+.dropdown {
+  height: 100%;
+}
+.menu-drop{
+  padding: 12px 24px;
+  border: none;
+  height: 100%;
+  background: black;
+  color: white;
+}
+.dropdown-menu{
+  width: 100vw;
+  background: black;
+  transform: translate3d(0,0,0) !important;
+  inset:100% 0 auto auto !important
+}
+.dropdown-item{
+  padding: 12px 24px;
+  text-transform: uppercase;
+  color: wheat;
+}
+
+.list-card{
+  display: flex;
+  max-width: 800px;
+  margin: auto;
+  justify-content: space-between;
+}
+.card{
+  width: 30%;
+}
+.buy{
+  background: black;
+  color: white;
+  border: none;
+  padding: 8px 16px
+}
+.buy:hover, .closeBtn:hover, .pay:hover{
+  background: #ccc;
+  color: black;
+}
+.modal-title{
+  text-align: center;
+  width: 100%;
+  color: white;
+  font-size: 30px;
+}
+.closeModal{
+  color: white;
+  background: none;
+  border: none;
+}
+.modal-header{
+  flex-direction: column-reverse;
+  align-items: flex-end;
+  background: #009688;
+  padding: 32px 16px;
+}
+.pay{
+  background: #009688;
+  color: white;
+  width: 100%;
+  margin: 16px 0;
+  padding: 16px;
+  border: none;
+}
+.info{
+  width: 100%;
+  padding: 8px;
+}
+.modal-text{
+  margin: 15px 0;
+}
+.modal-body{
+  padding: 0 16px;
+}
+.modal-footer{
+  justify-content: space-between;
+}
+.closeBtn{
+  background: #f44336;
+  color: white;
+  padding: 8px 16px;
+  margin: 16px 0;
+  border: 0;
+}
+.modal-dialog{
+  max-width: 900px;
+}
+@media screen and (max-width: 993px) {
+  .modal-dialog{
+    max-width: 500px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .listImg{
+    flex-direction: column;
+  }
+  .header-left .desktop, .desktop{
+    display: none;
+  }
+  .mobile{
+    display: block;
+  }
+  .header-right{
+    padding: 0;
+  }
+}

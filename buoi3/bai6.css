@@ -1,0 +1,47 @@
+.khoi{
+    width: 500px;
+    height: 700px;
+    margin:  0 auto;
+    position: relative;
+    border: 1px solid black;
+}
+.khoi2{
+    width: 500px;
+    height: 550px;
+    border: 1px solid white(0, 0, 0);
+    position: absolute;
+    background-image: url(https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/dog-puppy-on-garden-royalty-free-image-1586966191.jpg?crop=0.752xw:1.00xh;0.175xw,0&resize=640:*);
+    background-size:contain;
+
+}
+.text1{
+    position: absolute;
+    z-index: 999;
+    left: 0px;
+    right: 0px;
+    top: 500px;
+    bottom: 0px;
+    opacity: 0.5;
+    font-size: 32px;
+}
+.text2{
+    position: absolute;
+    z-index: 999;
+    left: 0px;
+    right: 0px;
+    top: 550px;
+    bottom: 0px;
+    font-size: 32px;
+    text-decoration: line-through;
+}
+.text3{
+    position: absolute;
+    z-index: 999;
+    left: 0px;
+    right: 0px;
+    top: 600px;
+    bottom: 0px;
+    font-size: 32px;
+    color: red;
+}
+

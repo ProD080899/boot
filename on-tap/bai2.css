@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.start{
+    display: flex;
+    margin-left: 64px;
+    margin-right: 64px;
+    justify-content: space-between;
+    background-color: #fff;
+}
+.w1-text,.a{
+    padding-left: 16px;
+}
+.a{
+    color: #437099;
+}
+.b{
+    color: #1977cc;
+    margin-right: 5px;
+}
+a{
+    text-decoration: none;
+}
+.Medilab{
+    color: #2c4964;
+}
+.nav{
+    margin-left: 64px;
+    margin-right: 64px;
+    display: flex;
+    justify-content: space-between;
+}
+.btn{
+    border-radius: 50px;
+}

@@ -1,0 +1,315 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.title{
+    border: 1px solid black;
+    height: 50px;
+    width: 100%;
+    background-color: aliceblue;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family:Verdana,sans-serif;
+    line-height: 1.5;
+    font-size: 15; 
+    height: 100%;
+}
+li{
+    padding: 10px;
+    display: inline-block;
+    
+}
+.a{
+    height: 100%;
+}
+.a:hover{
+    background-color: #ccc!important;
+    color: black;
+}
+.w1-img{
+    width:100%;  
+   position: relative;
+}
+.w1-text{
+    position: absolute;
+    top: 50%;
+    width: 90%;
+    font-size: 40px;
+  text-align: center;
+  color: #fff;
+  letter-spacing: 2px;
+}
+.w1-text1{
+    border: 1px solid black;
+    font-weight: bolder;
+    max-width: 40px;
+    max-height: 40px; 
+    background-color: black;
+    color: #fff;
+    padding: 10px;
+}
+.Arichitect{
+   padding-left: 10%;
+   padding-right: 10%;
+}
+.w2-center{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.w2-title{
+    padding-top: 16px;
+    padding-bottom: 16px;
+    font-size: 24px;
+    width: 100%; 
+}
+.Projects{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.w2-img-text{
+   
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+
+}
+.w2-img{
+    width: 22%;
+    position: relative;
+}
+.w2-text{
+   
+    height: 30px;
+    width: 130px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+}
+
+
+.w3-text{
+    font-family: Verdana,sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    width: 100%;
+    margin-bottom: 20px;
+    
+}   
+.w3-khoi{
+    width: 100%;
+   
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.w3-khoi1{
+    width: 24%;
+    
+}
+.w3-a{
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-size: 24px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.w3-b{
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-size: 16px;
+    opacity: 0.6;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.w3-c{
+    font-family: Verdana,sans-serif;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.w3-d{
+    width: 100%;
+    height: 40px;
+    background-color: #f1f1f1;
+    color: black;
+    border: none;
+}
+.w3-d:hover{
+    background-color: #ccc;
+}
+.w3-title{
+    padding-top: 16px;
+    padding-bottom: 16px;
+    font-size: 24px;
+    width: 100%;
+}
+.About{
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-bottom: 50px
+}
+
+.Contact{
+    width: 100%;
+    min-height: 600px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.w4-title{
+    padding-top: 16px;
+    padding-bottom: 16px;
+    font-size: 24px;
+    width: 100%;
+}
+.w4-text{
+    font-family: Verdana,sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    width: 100%;
+    margin-bottom: 20px;
+    
+} 
+.w4-box{
+    width: 100%;
+    height: 300px;
+}
+.w4-a{ 
+    width: 100%;
+    padding: 8px;
+    display: block;
+    border: 1px solid #ccc;
+    margin-bottom: 25px;
+    height: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+}
+.w4-button{
+    width: 150px;
+    height: 40px;
+    color: #fff;
+    background-color: black ;
+}
+.w4-button:hover{
+    background-color: #ccc;
+    color: black;
+}
+.w4-img{
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+
+.end{
+    height: 80px;
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background-color: black ;
+    font-family: Verdana,sans-serif;
+
+}
+.w5-text1{
+
+    text-decoration-line:underline;
+}
+
+.w5-text1:hover{
+    color: #4CAF50;
+}
+
+ @media screen and (max-width: 800px){
+        .Arichitect,.Projects, .About, .Contact{
+            padding-left: 5%;
+            padding-right: 5%;
+        }
+    
+        .title1{
+            display: none;
+        }
+        .title{
+            display: flex;
+            justify-content: center;
+        }
+        .Arichitect{
+            position: relative;
+        }
+        .img-test{
+            width: 100%;
+            position: relative;
+        }
+        .w1-text{
+            position: absolute;
+            top:25%;
+        }
+        .w2-img-text{
+            flex-wrap: wrap;
+            display: flex;
+             align-items: center;
+        }
+        .w2-img{
+            width: 48%;
+            margin-bottom: 30px;
+        }
+        .w3-khoi1{
+            width: 48%;
+        }
+        .w3-khoi{
+            flex-wrap: wrap;
+            display: flex;
+            align-items: center;
+        }
+        @media screen and (max-width: 600px){
+            .Arichitect,.Projects, .About, .Contact{
+                padding-left: 5%;
+                padding-right: 5%;
+            }
+        
+            .title1{
+                display: none;
+            }
+            .title{
+                display: flex;
+                justify-content: center;
+            }
+            .Arichitect{
+                position: relative;
+            }
+            .img-test{
+                width: 100%;
+                position: relative;
+            }
+            .w1-text{
+                position: absolute;
+                top:25%;
+            }
+            .w2-img-text{
+                flex-direction: column;
+                display: flex;
+                 align-items: center;
+            }
+            .w2-img{
+                width: 100%;
+                margin-bottom: 30px;
+            }
+            .w3-khoi1{
+                width: 100%;
+            }
+            .w3-khoi{
+                flex-direction: column;
+                display: flex;
+                align-items: center;
+            }
+            }
+        }    

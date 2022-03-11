@@ -1,0 +1,217 @@
+*{
+    box-sizing: border-box;
+}
+.bg-light {
+    background-color: rgb(68, 109, 106) !important;
+}
+.navbar-light .navbar-nav .nav-link.active{
+    color: white;
+    font-size: 20px;
+}
+.navbar-light .navbar-brand{
+    color: white;
+    font-size: 20px;    
+}
+.navbar-light .navbar-nav .nav-link{
+    color: white;
+    font-size: 20px;
+}
+.d-flex{
+    color: white;
+    font-size: 20px;
+}
+.navbar-light .navbar-toggler {
+    color: white;
+    font-size: 20px;
+}
+body{
+    font-family: "Lato", sans-serif;
+}
+h2{
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 400;
+    margin: 10px 0;
+    font-size: 30px;
+    text-align: center;
+   
+}
+.Center{
+    opacity: 0.6;
+    font-size: 15px;
+    line-height: 1.5;
+    text-align: center;
+}
+.w2-text{
+    font-size: 15px;
+    line-height: 1.5;
+    text-align:justify;
+
+}
+.Band{ 
+    margin: 0 auto;
+    max-width: 800px;
+    text-align: center;
+    margin-bottom: 64px;
+    margin-top: 64px;
+}
+.w2-img-name{
+    padding-top: 32px;
+    padding-bottom: 32px;
+    display: flex;
+    justify-content: space-around;
+}
+.tour{
+    margin: 0 auto;
+    max-width: 800px;
+    
+    margin-bottom: 64px;
+    margin-top: 64px;
+}
+.w3-textbox{
+    margin-top: 16px;
+    margin-bottom: 16px;
+   
+}
+.w3-box1{
+    width: 100%;
+    border: 1px solid #ddd; 
+    padding: 5px;
+    position: relative;
+}
+.w3-red{
+    background-color: #f44336!important;
+    color: white;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.nummber{
+    color: white;
+    background-color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 50%;
+    left: 95%;
+    position: absolute;
+}
+
+.w3-card{
+    display: flex;
+    justify-content: space-between;
+}
+.w3-text-card{
+    opacity: 0.6;
+    text-;
+}
+
+.tickets-center{
+    letter-spacing: 4px;
+    color: #ddd;
+    text-align: center;
+}
+.row{
+     
+    --bs-gutter-x: 0;
+    background-color: #009688!important;
+}
+textarea {
+    resize: none;
+ }
+ .btn-primary{
+    background-color: black;
+    border-color: black;
+ }
+ .btn-primary:hover{
+    background-color: #ddd !important;
+    border-color:  #ddd !important; 
+    color: black !important;
+ }
+ .btn-check:focus+.btn-primary, .btn-primary:focus{
+        background-color: black;
+        color: #ddd;
+ }
+ .modal-footer{
+    justify-content: flex-start !important;
+ }
+
+.modal-footer{
+   position: relative;
+
+}
+.modal-text{
+    position: absolute;
+    right: 0.5rem;
+}
+.modal-text1{
+    text-decoration-line: underline ;
+    color: #009688;
+}
+.w4-1{
+    max-width: 800px;
+    margin: 0 auto;
+    padding-top: 64px;
+    padding-bottom: 64px;
+
+}
+.w4-title{
+
+    font-family: "Lato", sans-serif;
+    text-align: center;
+    opacity: 0.6;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.w4-box1{
+    display: flex;
+    justify-content: space-between;
+}
+.w4-input1{
+    width: 48%;
+    padding: 8px;
+
+    margin-bottom: 8px;
+}
+.w4-input{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 8px;
+    
+}
+
+.w4-text-box{
+    display: flex;
+    justify-content:space-between;
+}
+.w4-button{
+    height: 40px;
+    width: 80px;
+    background-color: black;
+    color: #ddd;
+    
+}
+.w4-end-button{
+    display: flex;
+    justify-content: flex-end;
+}
+.w4-img{
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+.w4-icon{
+    font-size: 24px;
+    text-align: center;
+    opacity: 0.6;
+    line-height: 1.5
+}
+.w4-icon:hover{
+    color: gray;
+}
+.w4-end-text{
+    font-size: 15px;
+    text-align: center;
+    line-height: 1.5;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.w4-end-text1{
+    text-decoration: underline;
+}
